@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EB857942C8ED258004E2E83 /* BankrollUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB857932C8ED258004E2E83 /* BankrollUpApp.swift */; };
+		5EB857962C8ED258004E2E83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB857952C8ED258004E2E83 /* ContentView.swift */; };
+		5EB857982C8ED258004E2E83 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB857972C8ED258004E2E83 /* Item.swift */; };
+		5EB8579A2C8ED259004E2E83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB857992C8ED259004E2E83 /* Assets.xcassets */; };
+		5EB8579D2C8ED259004E2E83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB8579C2C8ED259004E2E83 /* Preview Assets.xcassets */; };
+		5EB857A72C8ED259004E2E83 /* BankrollUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB857A62C8ED259004E2E83 /* BankrollUpTests.swift */; };
+		5EB857B12C8ED259004E2E83 /* BankrollUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB857B02C8ED259004E2E83 /* BankrollUpUITests.swift */; };
+		5EB857B32C8ED259004E2E83 /* BankrollUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB857B22C8ED259004E2E83 /* BankrollUpUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EB857A32C8ED259004E2E83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB857882C8ED258004E2E83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB8578F2C8ED258004E2E83;
+			remoteInfo = BankrollUp;
+		};
+		5EB857AD2C8ED259004E2E83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB857882C8ED258004E2E83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB8578F2C8ED258004E2E83;
+			remoteInfo = BankrollUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EB857902C8ED258004E2E83 /* BankrollUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankrollUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB857932C8ED258004E2E83 /* BankrollUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankrollUpApp.swift; sourceTree = "<group>"; };
+		5EB857952C8ED258004E2E83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EB857972C8ED258004E2E83 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5EB857992C8ED259004E2E83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EB8579C2C8ED259004E2E83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EB857A22C8ED259004E2E83 /* BankrollUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankrollUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB857A62C8ED259004E2E83 /* BankrollUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankrollUpTests.swift; sourceTree = "<group>"; };
+		5EB857AC2C8ED259004E2E83 /* BankrollUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankrollUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB857B02C8ED259004E2E83 /* BankrollUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankrollUpUITests.swift; sourceTree = "<group>"; };
+		5EB857B22C8ED259004E2E83 /* BankrollUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankrollUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EB8578D2C8ED258004E2E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB8579F2C8ED259004E2E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB857A92C8ED259004E2E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EB857872C8ED258004E2E83 = {
+			isa = PBXGroup;
+			children = (
+				5EB857922C8ED258004E2E83 /* BankrollUp */,
+				5EB857A52C8ED259004E2E83 /* BankrollUpTests */,
+				5EB857AF2C8ED259004E2E83 /* BankrollUpUITests */,
+				5EB857912C8ED258004E2E83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EB857912C8ED258004E2E83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EB857902C8ED258004E2E83 /* BankrollUp.app */,
+				5EB857A22C8ED259004E2E83 /* BankrollUpTests.xctest */,
+				5EB857AC2C8ED259004E2E83 /* BankrollUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EB857922C8ED258004E2E83 /* BankrollUp */ = {
+			isa = PBXGroup;
+			children = (
+				5EB857932C8ED258004E2E83 /* BankrollUpApp.swift */,
+				5EB857952C8ED258004E2E83 /* ContentView.swift */,
+				5EB857972C8ED258004E2E83 /* Item.swift */,
+				5EB857992C8ED259004E2E83 /* Assets.xcassets */,
+				5EB8579B2C8ED259004E2E83 /* Preview Content */,
+			);
+			path = BankrollUp;
+			sourceTree = "<group>";
+		};
+		5EB8579B2C8ED259004E2E83 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5EB8579C2C8ED259004E2E83 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5EB857A52C8ED259004E2E83 /* BankrollUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EB857A62C8ED259004E2E83 /* BankrollUpTests.swift */,
+			);
+			path = BankrollUpTests;
+			sourceTree = "<group>";
+		};
+		5EB857AF2C8ED259004E2E83 /* BankrollUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EB857B02C8ED259004E2E83 /* BankrollUpUITests.swift */,
+				5EB857B22C8ED259004E2E83 /* BankrollUpUITestsLaunchTests.swift */,
+			);
+			path = BankrollUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EB8578F2C8ED258004E2E83 /* BankrollUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB857B62C8ED259004E2E83 /* Build configuration list for PBXNativeTarget "BankrollUp" */;
+			buildPhases = (
+				5EB8578C2C8ED258004E2E83 /* Sources */,
+				5EB8578D2C8ED258004E2E83 /* Frameworks */,
+				5EB8578E2C8ED258004E2E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankrollUp;
+			productName = BankrollUp;
+			productReference = 5EB857902C8ED258004E2E83 /* BankrollUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EB857A12C8ED259004E2E83 /* BankrollUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB857B92C8ED259004E2E83 /* Build configuration list for PBXNativeTarget "BankrollUpTests" */;
+			buildPhases = (
+				5EB8579E2C8ED259004E2E83 /* Sources */,
+				5EB8579F2C8ED259004E2E83 /* Frameworks */,
+				5EB857A02C8ED259004E2E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB857A42C8ED259004E2E83 /* PBXTargetDependency */,
+			);
+			name = BankrollUpTests;
+			productName = BankrollUpTests;
+			productReference = 5EB857A22C8ED259004E2E83 /* BankrollUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EB857AB2C8ED259004E2E83 /* BankrollUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB857BC2C8ED259004E2E83 /* Build configuration list for PBXNativeTarget "BankrollUpUITests" */;
+			buildPhases = (
+				5EB857A82C8ED259004E2E83 /* Sources */,
+				5EB857A92C8ED259004E2E83 /* Frameworks */,
+				5EB857AA2C8ED259004E2E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB857AE2C8ED259004E2E83 /* PBXTargetDependency */,
+			);
+			name = BankrollUpUITests;
+			productName = BankrollUpUITests;
+			productReference = 5EB857AC2C8ED259004E2E83 /* BankrollUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EB857882C8ED258004E2E83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5EB8578F2C8ED258004E2E83 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5EB857A12C8ED259004E2E83 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5EB8578F2C8ED258004E2E83;
+					};
+					5EB857AB2C8ED259004E2E83 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5EB8578F2C8ED258004E2E83;
+					};
+				};
+			};
+			buildConfigurationList = 5EB8578B2C8ED258004E2E83 /* Build configuration list for PBXProject "BankrollUp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EB857872C8ED258004E2E83;
+			productRefGroup = 5EB857912C8ED258004E2E83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EB8578F2C8ED258004E2E83 /* BankrollUp */,
+				5EB857A12C8ED259004E2E83 /* BankrollUpTests */,
+				5EB857AB2C8ED259004E2E83 /* BankrollUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EB8578E2C8ED258004E2E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB8579D2C8ED259004E2E83 /* Preview Assets.xcassets in Resources */,
+				5EB8579A2C8ED259004E2E83 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB857A02C8ED259004E2E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB857AA2C8ED259004E2E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EB8578C2C8ED258004E2E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB857962C8ED258004E2E83 /* ContentView.swift in Sources */,
+				5EB857982C8ED258004E2E83 /* Item.swift in Sources */,
+				5EB857942C8ED258004E2E83 /* BankrollUpApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB8579E2C8ED259004E2E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB857A72C8ED259004E2E83 /* BankrollUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB857A82C8ED259004E2E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB857B32C8ED259004E2E83 /* BankrollUpUITestsLaunchTests.swift in Sources */,
+				5EB857B12C8ED259004E2E83 /* BankrollUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EB857A42C8ED259004E2E83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB8578F2C8ED258004E2E83 /* BankrollUp */;
+			targetProxy = 5EB857A32C8ED259004E2E83 /* PBXContainerItemProxy */;
+		};
+		5EB857AE2C8ED259004E2E83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB8578F2C8ED258004E2E83 /* BankrollUp */;
+			targetProxy = 5EB857AD2C8ED259004E2E83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EB857B42C8ED259004E2E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EB857B52C8ED259004E2E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EB857B72C8ED259004E2E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BankrollUp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8FVBPYZ8XM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mitch.BankrollUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EB857B82C8ED259004E2E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BankrollUp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8FVBPYZ8XM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mitch.BankrollUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EB857BA2C8ED259004E2E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FVBPYZ8XM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mitch.BankrollUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankrollUp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BankrollUp";
+			};
+			name = Debug;
+		};
+		5EB857BB2C8ED259004E2E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FVBPYZ8XM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mitch.BankrollUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankrollUp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BankrollUp";
+			};
+			name = Release;
+		};
+		5EB857BD2C8ED259004E2E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FVBPYZ8XM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mitch.BankrollUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BankrollUp;
+			};
+			name = Debug;
+		};
+		5EB857BE2C8ED259004E2E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FVBPYZ8XM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mitch.BankrollUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BankrollUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EB8578B2C8ED258004E2E83 /* Build configuration list for PBXProject "BankrollUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB857B42C8ED259004E2E83 /* Debug */,
+				5EB857B52C8ED259004E2E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB857B62C8ED259004E2E83 /* Build configuration list for PBXNativeTarget "BankrollUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB857B72C8ED259004E2E83 /* Debug */,
+				5EB857B82C8ED259004E2E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB857B92C8ED259004E2E83 /* Build configuration list for PBXNativeTarget "BankrollUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB857BA2C8ED259004E2E83 /* Debug */,
+				5EB857BB2C8ED259004E2E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB857BC2C8ED259004E2E83 /* Build configuration list for PBXNativeTarget "BankrollUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB857BD2C8ED259004E2E83 /* Debug */,
+				5EB857BE2C8ED259004E2E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EB857882C8ED258004E2E83 /* Project object */;
+}
